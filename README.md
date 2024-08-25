@@ -1,7 +1,7 @@
 
 # My Weather
 
-A web application with following features:
+A web application to see weather reports:
 
 
 
@@ -15,6 +15,7 @@ A web application with following features:
 - Light and dark mode
 - List of recent searches
 - User can click on recent search to see weather for it
+- Mobile and desktop responsive
 
 
 
