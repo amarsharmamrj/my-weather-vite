@@ -1,0 +1,28 @@
+.foreCast {
+    padding: 1rem;
+    margin: 3rem 1rem;
+    background-color: #ffffff14;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 1rem;
+}
+
+.foreCast .section-title {
+    margin: 0;
+}
+
+.foreCast .day-cards {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 1rem;
+    overflow-x: auto;
+    margin: 0 0 0 0;
+    padding: 0.5rem 1rem;
+}
+
+/* #################################### MOBILE DEVICES ############################ */
+@media only screen and (max-width: 992px) {
+    .foreCast .day-cards {
+        padding: 0.5rem;
+    }
+    
+}

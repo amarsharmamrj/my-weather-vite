@@ -1,0 +1,24 @@
+.hourly {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #ffffff14;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 1rem;
+}
+
+
+.hourly .title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hourly .section-title {
+    margin: 0;
+}
+
+.hourly .hour-cards {
+    display: flex;
+    overflow-x: auto;
+    margin: 0 0 0 0;
+    padding: 0 0 0.5rem 0;
+}

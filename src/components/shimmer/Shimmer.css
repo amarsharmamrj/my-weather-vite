@@ -1,0 +1,37 @@
+.shine {
+    background: #a7d1fa;
+    background-image: linear-gradient(to right, #c8e2fd 0%, #bdccf8 20%, #cde5fd 40%, #c1defc 100%);
+    background-repeat: no-repeat;
+    background-size: 800px 104px;
+    display: inline-block;
+    position: relative;
+
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    animation-name: placeholderShimmer;
+    -webkit-animation-name: placeholderShimmer;
+    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
+}
+
+.shine {
+    display: block;
+    width: 325px;
+    height: 100px;
+    margin-top: 15px;
+    border-radius: 0.5rem;
+}
+
+@keyframes placeholderShimmer {
+    0% {
+        background-position: -468px 0;
+    }
+
+    100% {
+        background-position: 468px 0;
+    }
+}

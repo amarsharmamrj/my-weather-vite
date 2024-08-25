@@ -1,0 +1,26 @@
+.hourly .hour-cards .card{
+   text-align: center;
+   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12), 0 3px 4px rgba(0, 0, 0, 0.24);
+   margin: 0.8rem;
+   padding: 0.8rem;
+   border-radius: 0.5rem;
+}
+
+.hourly .hour-cards .card.now{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+ }
+
+.hourly .hour-cards .card .time {
+    font-size: 0.8rem;
+    margin: 0 0 0.5rem 0;
+}
+
+.hourly .hour-cards .card .icon {
+    height: 3.2rem;
+}
+
+.hourly .hour-cards .card .temp {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 500;
+}

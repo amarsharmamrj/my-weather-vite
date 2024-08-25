@@ -1,0 +1,37 @@
+.foreCast .day-cards .card {
+    margin: 1rem 0;
+    padding: 0.8rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 0.5rem;
+}
+
+.foreCast .day-cards .card .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foreCast .day-cards .card .day,
+.foreCast .day-cards .card .date {
+    margin: 0;
+}
+
+.foreCast .day-cards .card .items {
+    display: flex;
+    row-gap: 0rem;
+    justify-content: space-between;
+}
+
+.foreCast .day-cards .card .items .item {
+    margin: 1.5rem 0.8rem 0 0.5rem;
+    text-align: center;
+}
+
+.foreCast .day-cards .card .items .item .icon svg{
+    font-size: 1.5rem;
+}
+
+
+.foreCast .day-cards .card .items .item p {
+    margin: 0.2rem;
+    font-size: 0.8rem;
+}
